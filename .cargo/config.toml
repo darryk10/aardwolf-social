@@ -1,8 +1,8 @@
 #-
 # Mold Linker for linux (replaces LLD)
 # New format
-[target.x86_64-unknown-linux-gnu]
-rustflags = ["-C", "link-arg=-fuse-ld=mold"]
+#[target.x86_64-unknown-linux-gnu]
+#rustflags = ["-C", "link-arg=-fuse-ld=mold"]
 
 # Syntax for older GCC
 #[target.x86_64-unknown-linux-gnu]

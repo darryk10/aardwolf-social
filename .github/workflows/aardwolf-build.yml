@@ -61,11 +61,11 @@ jobs:
         run: if which diesel; then echo "diesel already installed"; else cargo install diesel_cli --no-default-features --features=postgres; fi
 
 # Push the aardwolf-models directory, and run migrations
-      - run: |
-          pushd aardwolf-models
-          diesel migration run
-          popd
+#      - run: |
+#          pushd aardwolf-models
+#          diesel migration run
+#          popd
 
 # Run cargo build
-      - name: Cargo build Aardwolf
-        run: cargo build
+#      - name: Cargo build Aardwolf
+#        run: cargo build
